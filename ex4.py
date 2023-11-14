@@ -8,3 +8,6 @@ print ("Minimum : " + str(mini))
 
 maxi = nbList[-1]
 print ("Maximum : " + str(maxi))
+
+moy = sum(nbList) / len(nbList)
+print ("Moyenne : " + str(moy))
