@@ -1,4 +1,7 @@
-nbList = [512, 64, 1024, 256, 4096, 2048, 28, 14, 128, 56]
+import random
+
+nbList = [random.randint(1, 1000) for i in range(10)]
+print ("Liste random : " + str(nbList))
 
 nbList.sort()
 print ("Ordre croissant : " + str(nbList))
