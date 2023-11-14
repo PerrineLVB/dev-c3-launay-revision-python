@@ -1,0 +1,1 @@
+Nombre de mots dans le fichier csv : 10
