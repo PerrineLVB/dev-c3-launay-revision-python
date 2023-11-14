@@ -30,3 +30,18 @@ def evaluate_expression(expr):
                     return "Division par zéro impossible"
         else:
             i += 1
+            
+    result = int(elements[0])
+    i = 1
+    while i < len(elements):
+        operator = elements[i]
+        operand = int(elements[i + 1])
+
+        if operator == '+':
+            result += operand
+        else:
+            result -= operand
+        i += 2
+
+    return result
+
