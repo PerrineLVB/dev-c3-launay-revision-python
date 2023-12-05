@@ -3,6 +3,9 @@ import random
 nbList = [random.randint(1, 1000) for i in range(10)]
 print ("Liste random : " + str(nbList))
 
+if len(nbList) == 0:
+    print ("Liste vide")
+
 nbList.sort()
 print ("Ordre croissant : " + str(nbList))
 
